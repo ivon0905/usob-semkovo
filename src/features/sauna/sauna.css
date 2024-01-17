@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.saunaImage {
+    margin-left: 10px;
+    width: 47.5vw;
+}
+
+.saunaReservation {
+    text-align: center;
+    margin: 5px;
+    color: var(--clr-gold);
+    font-weight: bold;
+}
+
+.splitScreen {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.topPane {
+    grid-column: 1;
+    grid-row: 1;
+}
+.bottomPane {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+   flex: 50%;
+}
+
+.btn-hour {
+    width: 7vw;
+    height: 3vh;
+    background: transparent;
+    color: var(--clr-gold);
+    border-color: var(--clr-gold);
+    border-radius: var(--radius);
+}
+
+.btn-slot
+{
+    width: 10vw;
+    height: 6vh;
+    background: transparent;
+    color: var(--clr-gold);
+    border-color: var(--clr-gold);
+    border-radius: var(--radius);
+}
+
+.btn-selected {
+    background: var(--clr-gold);
+    color: white;
+    border-color: var(--clr-gold);
+}
+
+.btn-reserved {
+    background: transparent;
+    color: #F7D9AF;
+    border-color: #F7D9AF;
+}
+
+.btn-save {
+    justify-content: center;
+    align-content: center;
+    left: 50%;
+    margin-top: 4vh;
+    width: 11vw;
+    height: 6vh;
+    background: var(--clr-gold);
+    color: white;
+    border-color: var(--clr-gold);
+    border-radius: var(--radius);
+}

@@ -1,0 +1,64 @@
+.roomsSection {
+    height: 34vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.doubleRoom {
+    grid-column: 1;
+    grid-row: 1;
+}
+.tripleRoom {
+    grid-column: 2;
+    grid-row: 1;
+}
+.apartment {
+    grid-column: 3;
+    grid-row: 1;
+}
+.roomImages {
+    width: 33vw;
+    height: 33vh;
+}
+.reservationPanel {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.btn-hour {
+    width: 15vw;
+    height: 8vh;
+    background: transparent;
+    color: var(--clr-gold);
+    border-color: var(--clr-gold);
+    border-radius: var(--radius);
+}
+.btn-search {
+    width: 20vw;
+    height: 8vh;
+    background: var(--clr-gold);
+    color: white;
+    border-color: var(--clr-gold);
+    border-radius: var(--radius);
+}
+
+.result {
+    font-weight: bold;
+    text-align: center;
+    color: var(--clr-gold);
+    margin-bottom: 3vh;
+}
+.reservationResult {
+    font-weight: bold;
+    text-align: center;
+    color: var(--clr-gold);
+}
+.personalInfo {
+    width: 15vw;
+    height: 8vh;
+    background: transparent;
+    color: var(--clr-gold);
+    border-color: var(--clr-gold);
+    border-radius: var(--radius);
+}

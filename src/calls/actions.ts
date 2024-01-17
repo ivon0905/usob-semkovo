@@ -1,0 +1,2 @@
+export const GET_MENU_ITEMS = "GET_MENU_ITEMS";
+export const GET_MENU_CATEGORIES = "GET_MENU_CATEGORIES";
